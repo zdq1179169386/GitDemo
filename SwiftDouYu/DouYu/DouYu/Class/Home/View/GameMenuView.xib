@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="z69-9J-NMX" customClass="GameMenuView" customModule="DouYu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="18K-KQ-o84">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="A9P-0f-2yN">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="z69-9J-NMX" id="zkf-nh-1wb"/>
+                        <outlet property="delegate" destination="z69-9J-NMX" id="hkt-tx-FK0"/>
+                    </connections>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="fns-tA-7v5">
+                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fns-tA-7v5" firstAttribute="centerX" secondItem="z69-9J-NMX" secondAttribute="centerX" id="4KP-iu-1op"/>
+                <constraint firstItem="18K-KQ-o84" firstAttribute="top" secondItem="z69-9J-NMX" secondAttribute="top" id="Eg6-r0-Jml"/>
+                <constraint firstAttribute="trailing" secondItem="18K-KQ-o84" secondAttribute="trailing" id="ZkR-Js-ICJ"/>
+                <constraint firstAttribute="bottom" secondItem="fns-tA-7v5" secondAttribute="bottom" constant="-5" id="gFz-Jg-h5W"/>
+                <constraint firstItem="fns-tA-7v5" firstAttribute="top" secondItem="18K-KQ-o84" secondAttribute="bottom" constant="-10" id="ioc-Um-3WS"/>
+                <constraint firstItem="18K-KQ-o84" firstAttribute="leading" secondItem="z69-9J-NMX" secondAttribute="leading" id="uFe-DE-oHA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="18K-KQ-o84" id="Z7i-gh-gCU"/>
+                <outlet property="pageControl" destination="fns-tA-7v5" id="v6J-KA-zeu"/>
+            </connections>
+            <point key="canvasLocation" x="-90" y="88.5"/>
+        </view>
+    </objects>
+</document>

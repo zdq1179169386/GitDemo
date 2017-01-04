@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionPrettyCell" customModule="DouYu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="179" height="188"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="179" height="188"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdN-qH-erB">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="zGf-qS-ERK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <state key="normal" title="杭州市" image="UMS_No_Location">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="房间名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQU-S0-XVV">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="EnQ-pm-hcj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="qDI-Uj-40X">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esm-bj-xFv">
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="B1X-Hu-mfd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="qDI-Uj-40X" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Fmp-je-6Oh"/>
+                <constraint firstAttribute="trailing" secondItem="qDI-Uj-40X" secondAttribute="trailing" id="L9E-OW-Ngm"/>
+                <constraint firstItem="JQU-S0-XVV" firstAttribute="top" secondItem="qDI-Uj-40X" secondAttribute="bottom" constant="5" id="dnY-uX-LAc"/>
+                <constraint firstItem="qDI-Uj-40X" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="edG-bN-nfH"/>
+                <constraint firstItem="kdN-qH-erB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fJB-z7-poa"/>
+                <constraint firstItem="kdN-qH-erB" firstAttribute="top" secondItem="JQU-S0-XVV" secondAttribute="bottom" constant="5" id="kg1-Y5-HuK"/>
+                <constraint firstAttribute="trailing" secondItem="esm-bj-xFv" secondAttribute="trailing" constant="8" id="t6r-wh-jlN"/>
+                <constraint firstItem="esm-bj-xFv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="uY1-QM-8Zu"/>
+                <constraint firstItem="JQU-S0-XVV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="v6I-Rh-SnA"/>
+                <constraint firstAttribute="bottom" secondItem="kdN-qH-erB" secondAttribute="bottom" constant="10" id="vdt-xL-5Vw"/>
+            </constraints>
+            <size key="customSize" width="179" height="188"/>
+            <connections>
+                <outlet property="location" destination="kdN-qH-erB" id="seD-3g-Adf"/>
+                <outlet property="onlineUser" destination="esm-bj-xFv" id="koF-iT-kql"/>
+                <outlet property="roomName" destination="JQU-S0-XVV" id="ofR-Hw-wbZ"/>
+                <outlet property="roomUrlImg" destination="qDI-Uj-40X" id="ton-qJ-qY6"/>
+            </connections>
+            <point key="canvasLocation" x="-103.5" y="33"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Img_default" width="172" height="96"/>
+        <image name="UMS_No_Location" width="15" height="23"/>
+    </resources>
+</document>

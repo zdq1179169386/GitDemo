@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="CommonReusableHeadView" customModule="DouYu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QAp-Y9-njF">
+                    <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="HkT-Vr-8aL"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="the-NH-OlQ">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="gmB-X3-xNX"/>
+                        <constraint firstAttribute="width" constant="15" id="x2o-bP-6j8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="颜值" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzr-hp-JtZ">
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkb-bG-fRa">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="更多 &gt;">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QAp-Y9-njF" secondAttribute="trailing" id="AUk-GK-L4R"/>
+                <constraint firstItem="QAp-Y9-njF" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="JY8-X0-mLc"/>
+                <constraint firstItem="zzr-hp-JtZ" firstAttribute="centerY" secondItem="the-NH-OlQ" secondAttribute="centerY" id="ann-SO-6NI"/>
+                <constraint firstItem="the-NH-OlQ" firstAttribute="top" secondItem="QAp-Y9-njF" secondAttribute="bottom" constant="14" id="cPH-Oo-ia7"/>
+                <constraint firstAttribute="trailing" secondItem="Qkb-bG-fRa" secondAttribute="trailing" constant="8" id="cmL-fr-VB2"/>
+                <constraint firstItem="zzr-hp-JtZ" firstAttribute="leading" secondItem="the-NH-OlQ" secondAttribute="trailing" constant="5" id="fIQ-U7-AkG"/>
+                <constraint firstItem="the-NH-OlQ" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="10" id="nx6-FX-IGV"/>
+                <constraint firstItem="QAp-Y9-njF" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="r2B-4M-xrF"/>
+                <constraint firstItem="Qkb-bG-fRa" firstAttribute="centerY" secondItem="the-NH-OlQ" secondAttribute="centerY" id="zko-cL-beS"/>
+            </constraints>
+            <connections>
+                <outlet property="icon" destination="the-NH-OlQ" id="3bv-Nf-ENs"/>
+                <outlet property="sectionName" destination="zzr-hp-JtZ" id="BhS-QJ-nly"/>
+            </connections>
+            <point key="canvasLocation" x="-41" y="-44"/>
+        </collectionReusableView>
+    </objects>
+</document>
