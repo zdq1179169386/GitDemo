@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A048DDFC3C178FB3E3C2803 /* libPods-PlayVoiceDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A517A08C46D14C07856F55D6 /* libPods-PlayVoiceDemo.a */; };
+		2EF26BF02123C21400BE8DB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF26BEF2123C21400BE8DB1 /* AppDelegate.m */; };
+		2EF26BF32123C21500BE8DB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF26BF22123C21400BE8DB1 /* ViewController.m */; };
+		2EF26BF62123C21500BE8DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF26BF42123C21500BE8DB1 /* Main.storyboard */; };
+		2EF26BF82123C21600BE8DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF26BF72123C21600BE8DB1 /* Assets.xcassets */; };
+		2EF26BFB2123C21600BE8DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF26BF92123C21600BE8DB1 /* LaunchScreen.storyboard */; };
+		2EF26BFE2123C21600BE8DB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF26BFD2123C21600BE8DB1 /* main.m */; };
+		2EF26C082123C21600BE8DB1 /* PlayVoiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF26C072123C21600BE8DB1 /* PlayVoiceDemoTests.m */; };
+		2EF26C132123C21600BE8DB1 /* PlayVoiceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF26C122123C21600BE8DB1 /* PlayVoiceDemoUITests.m */; };
+		2EF26C222123C58900BE8DB1 /* XZPlayVoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF26C202123C58900BE8DB1 /* XZPlayVoiceCell.m */; };
+		2EF26C252123C92C00BE8DB1 /* XZVoiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF26C242123C92C00BE8DB1 /* XZVoiceModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EF26C042123C21600BE8DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EF26BE32123C21400BE8DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF26BEA2123C21400BE8DB1;
+			remoteInfo = PlayVoiceDemo;
+		};
+		2EF26C0F2123C21600BE8DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EF26BE32123C21400BE8DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF26BEA2123C21400BE8DB1;
+			remoteInfo = PlayVoiceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EF26BEB2123C21400BE8DB1 /* PlayVoiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayVoiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF26BEE2123C21400BE8DB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EF26BEF2123C21400BE8DB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EF26BF12123C21400BE8DB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EF26BF22123C21400BE8DB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EF26BF52123C21500BE8DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EF26BF72123C21600BE8DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EF26BFA2123C21600BE8DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EF26BFC2123C21600BE8DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF26BFD2123C21600BE8DB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EF26C032123C21600BE8DB1 /* PlayVoiceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayVoiceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF26C072123C21600BE8DB1 /* PlayVoiceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayVoiceDemoTests.m; sourceTree = "<group>"; };
+		2EF26C092123C21600BE8DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF26C0E2123C21600BE8DB1 /* PlayVoiceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayVoiceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF26C122123C21600BE8DB1 /* PlayVoiceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayVoiceDemoUITests.m; sourceTree = "<group>"; };
+		2EF26C142123C21600BE8DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF26C202123C58900BE8DB1 /* XZPlayVoiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPlayVoiceCell.m; sourceTree = "<group>"; };
+		2EF26C212123C58900BE8DB1 /* XZPlayVoiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPlayVoiceCell.h; sourceTree = "<group>"; };
+		2EF26C232123C92C00BE8DB1 /* XZVoiceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZVoiceModel.h; sourceTree = "<group>"; };
+		2EF26C242123C92C00BE8DB1 /* XZVoiceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZVoiceModel.m; sourceTree = "<group>"; };
+		2EF26C262123CA4500BE8DB1 /* XZEunmDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZEunmDefine.h; sourceTree = "<group>"; };
+		833CA6A6BA3E2C06A0176B36 /* Pods-PlayVoiceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayVoiceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayVoiceDemo/Pods-PlayVoiceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A517A08C46D14C07856F55D6 /* libPods-PlayVoiceDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayVoiceDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83D6C1EC4137EA8173355ED /* Pods-PlayVoiceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayVoiceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayVoiceDemo/Pods-PlayVoiceDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EF26BE82123C21400BE8DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A048DDFC3C178FB3E3C2803 /* libPods-PlayVoiceDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF26C002123C21600BE8DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF26C0B2123C21600BE8DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA1AA007BB4D10677155EDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				833CA6A6BA3E2C06A0176B36 /* Pods-PlayVoiceDemo.debug.xcconfig */,
+				E83D6C1EC4137EA8173355ED /* Pods-PlayVoiceDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2EF26BE22123C21400BE8DB1 = {
+			isa = PBXGroup;
+			children = (
+				2EF26BED2123C21400BE8DB1 /* PlayVoiceDemo */,
+				2EF26C062123C21600BE8DB1 /* PlayVoiceDemoTests */,
+				2EF26C112123C21600BE8DB1 /* PlayVoiceDemoUITests */,
+				2EF26BEC2123C21400BE8DB1 /* Products */,
+				1CA1AA007BB4D10677155EDA /* Pods */,
+				93856662C5B5792EFA26B18D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EF26BEC2123C21400BE8DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EF26BEB2123C21400BE8DB1 /* PlayVoiceDemo.app */,
+				2EF26C032123C21600BE8DB1 /* PlayVoiceDemoTests.xctest */,
+				2EF26C0E2123C21600BE8DB1 /* PlayVoiceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EF26BED2123C21400BE8DB1 /* PlayVoiceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2EF26C262123CA4500BE8DB1 /* XZEunmDefine.h */,
+				2EF26C232123C92C00BE8DB1 /* XZVoiceModel.h */,
+				2EF26C242123C92C00BE8DB1 /* XZVoiceModel.m */,
+				2EF26C212123C58900BE8DB1 /* XZPlayVoiceCell.h */,
+				2EF26C202123C58900BE8DB1 /* XZPlayVoiceCell.m */,
+				2EF26BEE2123C21400BE8DB1 /* AppDelegate.h */,
+				2EF26BEF2123C21400BE8DB1 /* AppDelegate.m */,
+				2EF26BF12123C21400BE8DB1 /* ViewController.h */,
+				2EF26BF22123C21400BE8DB1 /* ViewController.m */,
+				2EF26BF42123C21500BE8DB1 /* Main.storyboard */,
+				2EF26BF72123C21600BE8DB1 /* Assets.xcassets */,
+				2EF26BF92123C21600BE8DB1 /* LaunchScreen.storyboard */,
+				2EF26BFC2123C21600BE8DB1 /* Info.plist */,
+				2EF26BFD2123C21600BE8DB1 /* main.m */,
+			);
+			path = PlayVoiceDemo;
+			sourceTree = "<group>";
+		};
+		2EF26C062123C21600BE8DB1 /* PlayVoiceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF26C072123C21600BE8DB1 /* PlayVoiceDemoTests.m */,
+				2EF26C092123C21600BE8DB1 /* Info.plist */,
+			);
+			path = PlayVoiceDemoTests;
+			sourceTree = "<group>";
+		};
+		2EF26C112123C21600BE8DB1 /* PlayVoiceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF26C122123C21600BE8DB1 /* PlayVoiceDemoUITests.m */,
+				2EF26C142123C21600BE8DB1 /* Info.plist */,
+			);
+			path = PlayVoiceDemoUITests;
+			sourceTree = "<group>";
+		};
+		93856662C5B5792EFA26B18D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A517A08C46D14C07856F55D6 /* libPods-PlayVoiceDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EF26BEA2123C21400BE8DB1 /* PlayVoiceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF26C172123C21600BE8DB1 /* Build configuration list for PBXNativeTarget "PlayVoiceDemo" */;
+			buildPhases = (
+				F007EEBBBDF67805F942439C /* [CP] Check Pods Manifest.lock */,
+				2EF26BE72123C21400BE8DB1 /* Sources */,
+				2EF26BE82123C21400BE8DB1 /* Frameworks */,
+				2EF26BE92123C21400BE8DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayVoiceDemo;
+			productName = PlayVoiceDemo;
+			productReference = 2EF26BEB2123C21400BE8DB1 /* PlayVoiceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EF26C022123C21600BE8DB1 /* PlayVoiceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF26C1A2123C21600BE8DB1 /* Build configuration list for PBXNativeTarget "PlayVoiceDemoTests" */;
+			buildPhases = (
+				2EF26BFF2123C21600BE8DB1 /* Sources */,
+				2EF26C002123C21600BE8DB1 /* Frameworks */,
+				2EF26C012123C21600BE8DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EF26C052123C21600BE8DB1 /* PBXTargetDependency */,
+			);
+			name = PlayVoiceDemoTests;
+			productName = PlayVoiceDemoTests;
+			productReference = 2EF26C032123C21600BE8DB1 /* PlayVoiceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EF26C0D2123C21600BE8DB1 /* PlayVoiceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF26C1D2123C21600BE8DB1 /* Build configuration list for PBXNativeTarget "PlayVoiceDemoUITests" */;
+			buildPhases = (
+				2EF26C0A2123C21600BE8DB1 /* Sources */,
+				2EF26C0B2123C21600BE8DB1 /* Frameworks */,
+				2EF26C0C2123C21600BE8DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EF26C102123C21600BE8DB1 /* PBXTargetDependency */,
+			);
+			name = PlayVoiceDemoUITests;
+			productName = PlayVoiceDemoUITests;
+			productReference = 2EF26C0E2123C21600BE8DB1 /* PlayVoiceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EF26BE32123C21400BE8DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zdq;
+				TargetAttributes = {
+					2EF26BEA2123C21400BE8DB1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2EF26C022123C21600BE8DB1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2EF26BEA2123C21400BE8DB1;
+					};
+					2EF26C0D2123C21600BE8DB1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2EF26BEA2123C21400BE8DB1;
+					};
+				};
+			};
+			buildConfigurationList = 2EF26BE62123C21400BE8DB1 /* Build configuration list for PBXProject "PlayVoiceDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EF26BE22123C21400BE8DB1;
+			productRefGroup = 2EF26BEC2123C21400BE8DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EF26BEA2123C21400BE8DB1 /* PlayVoiceDemo */,
+				2EF26C022123C21600BE8DB1 /* PlayVoiceDemoTests */,
+				2EF26C0D2123C21600BE8DB1 /* PlayVoiceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EF26BE92123C21400BE8DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF26BFB2123C21600BE8DB1 /* LaunchScreen.storyboard in Resources */,
+				2EF26BF82123C21600BE8DB1 /* Assets.xcassets in Resources */,
+				2EF26BF62123C21500BE8DB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF26C012123C21600BE8DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF26C0C2123C21600BE8DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F007EEBBBDF67805F942439C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayVoiceDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EF26BE72123C21400BE8DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF26BF32123C21500BE8DB1 /* ViewController.m in Sources */,
+				2EF26BFE2123C21600BE8DB1 /* main.m in Sources */,
+				2EF26C222123C58900BE8DB1 /* XZPlayVoiceCell.m in Sources */,
+				2EF26C252123C92C00BE8DB1 /* XZVoiceModel.m in Sources */,
+				2EF26BF02123C21400BE8DB1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF26BFF2123C21600BE8DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF26C082123C21600BE8DB1 /* PlayVoiceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF26C0A2123C21600BE8DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF26C132123C21600BE8DB1 /* PlayVoiceDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EF26C052123C21600BE8DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EF26BEA2123C21400BE8DB1 /* PlayVoiceDemo */;
+			targetProxy = 2EF26C042123C21600BE8DB1 /* PBXContainerItemProxy */;
+		};
+		2EF26C102123C21600BE8DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EF26BEA2123C21400BE8DB1 /* PlayVoiceDemo */;
+			targetProxy = 2EF26C0F2123C21600BE8DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EF26BF42123C21500BE8DB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF26BF52123C21500BE8DB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EF26BF92123C21600BE8DB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF26BFA2123C21600BE8DB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EF26C152123C21600BE8DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EF26C162123C21600BE8DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EF26C182123C21600BE8DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833CA6A6BA3E2C06A0176B36 /* Pods-PlayVoiceDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayVoiceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.PlayVoiceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EF26C192123C21600BE8DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E83D6C1EC4137EA8173355ED /* Pods-PlayVoiceDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayVoiceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.PlayVoiceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EF26C1B2123C21600BE8DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayVoiceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.PlayVoiceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayVoiceDemo.app/PlayVoiceDemo";
+			};
+			name = Debug;
+		};
+		2EF26C1C2123C21600BE8DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayVoiceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.PlayVoiceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayVoiceDemo.app/PlayVoiceDemo";
+			};
+			name = Release;
+		};
+		2EF26C1E2123C21600BE8DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayVoiceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.PlayVoiceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayVoiceDemo;
+			};
+			name = Debug;
+		};
+		2EF26C1F2123C21600BE8DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayVoiceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.PlayVoiceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayVoiceDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EF26BE62123C21400BE8DB1 /* Build configuration list for PBXProject "PlayVoiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF26C152123C21600BE8DB1 /* Debug */,
+				2EF26C162123C21600BE8DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF26C172123C21600BE8DB1 /* Build configuration list for PBXNativeTarget "PlayVoiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF26C182123C21600BE8DB1 /* Debug */,
+				2EF26C192123C21600BE8DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF26C1A2123C21600BE8DB1 /* Build configuration list for PBXNativeTarget "PlayVoiceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF26C1B2123C21600BE8DB1 /* Debug */,
+				2EF26C1C2123C21600BE8DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF26C1D2123C21600BE8DB1 /* Build configuration list for PBXNativeTarget "PlayVoiceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF26C1E2123C21600BE8DB1 /* Debug */,
+				2EF26C1F2123C21600BE8DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EF26BE32123C21400BE8DB1 /* Project object */;
+}
